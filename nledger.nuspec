@@ -6,7 +6,7 @@
     <version>0.7</version>
     <packageSourceUrl>https://github.com/belidzs/chocolatey-nledger</packageSourceUrl>
     <owners>belidzs</owners>
-    <title>nledger (Install)</title>
+    <title>.Net Ledger (Install)</title>
     <authors>Dmitry Merzlyakov</authors>
     <projectUrl>https://github.com/dmitry-merzlyakov/nledger</projectUrl>
     <copyright>Copyright (c) 2015-2018, Dmitry Merzlyakov. All rights reserved.</copyright>
