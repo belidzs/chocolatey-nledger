@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop';
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/dmitry-merzlyakov/nledger/releases/download/v0.8/NLedger-v0.8.msi'
+$url        = 'https://github.com/dmitry-merzlyakov/nledger/releases/download/V0.8.1/NLedger-v0.8.1.msi'
 
 
 $packageArgs = @{
@@ -11,7 +11,7 @@ $packageArgs = @{
 
   softwareName  = 'nledger*'
 
-  checksum      = 'e523a1c7000bb7625fbe83d586e11a79704476ef3b25c08679fda22bac114edf'
+  checksum      = '32dc6d659f8024c4499332ca1fcd958d58f289f51aaf428a9bf323b8c3c662d7'
   checksumType  = 'sha256'
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`""
